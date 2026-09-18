@@ -6,17 +6,17 @@ int main(void) {
     for (int i = 1; i <= n; i++) {
         // 1. Espaces pour centrer la ligne
         for (int j = 1; j <= n - i; j++) {
-            printf(" ");
+            printf("  ");
         }
 
-        // 2. Nombres croissants de 1 à i
+        // 2. Chatons jusqu'au centre
         for (int j = 1; j <= i; j++) {
-            printf("%d", j);
+            printf("🐱");
         }
 
-        // 3. Nombres décroissants de i - 1 à 1
+        // 3. Chatons depuis le centre
         for (int j = i - 1; j >= 1; j--) {
-            printf("%d", j);
+            printf("🐱");
         }
 
         printf("\n");
